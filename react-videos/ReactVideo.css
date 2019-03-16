@@ -1,0 +1,32 @@
+.videoWrapper {
+  position: relative;
+}
+
+.videoPoster,
+.videoTrigger,
+.video {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.videoPoster {
+  background: none no-repeat 0 0 / 100% auto;
+}
+
+.videoTrigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.14);
+}
+
+.videoTgimg {
+  display: block;
+  width: 46px;
+  height: 46px;
+  background: url('static/media/video_icon.svg') no-repeat 0 0 / 46px 46px;
+}
