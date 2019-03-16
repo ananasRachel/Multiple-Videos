@@ -1,0 +1,7 @@
+<view class="video-player" style="width:{{video.width}};height:{{video.height}};">
+  <image src="{{video.poster}}" class="image" />
+  <view class="trigger" bindtap="handleTap">
+    <image src="/assets/media/video_icon.svg" class="trigger-image" />
+  </view>
+  <video id="video" class="video" hidden="{{!active}}" src="{{video.src}}" />
+</view>
